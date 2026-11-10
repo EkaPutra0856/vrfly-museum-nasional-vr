@@ -1,0 +1,122 @@
+{
+ "note": "written by stabilize_plates.py; boxes are the object in the plate frame (u0, v0, u1, v1)",
+ "aspect": 1.7777777777777777,
+ "plates": [
+  {
+   "number": 1,
+   "short": "Dwarapala",
+   "file": "Movies/Plates/Plate01_Dwarapala.mp4",
+   "box": [
+    0.3663,
+    0.065,
+    0.5688,
+    0.785
+   ],
+   "zoom": 1.5,
+   "filled_frames": 364,
+   "frames": 391,
+   "loop_seconds": 26.0,
+   "lost_steps": 0
+  },
+  {
+   "number": 2,
+   "short": "Nandiswara",
+   "file": "Movies/Plates/Plate02_Nandiswara.mp4",
+   "box": [
+    0.3169,
+    0.0,
+    0.613,
+    0.9315
+   ],
+   "zoom": 1.41,
+   "filled_frames": 300,
+   "frames": 300,
+   "loop_seconds": 19.93,
+   "lost_steps": 0
+  },
+  {
+   "number": 3,
+   "short": "PrasastiGajahMada",
+   "file": "Movies/Plates/Plate03_PrasastiGajahMada.mp4",
+   "box": [
+    0.3251,
+    0.0,
+    0.6149,
+    1.0
+   ],
+   "zoom": 1.26,
+   "filled_frames": 312,
+   "frames": 312,
+   "loop_seconds": 20.73,
+   "lost_steps": 0
+  },
+  {
+   "number": 4,
+   "short": "ReliefArjunawiwaha",
+   "file": "Movies/Plates/Plate04_ReliefArjunawiwaha.mp4",
+   "box": [
+    0.2995,
+    0.09,
+    0.8005,
+    0.9
+   ],
+   "zoom": 1.5,
+   "filled_frames": 406,
+   "frames": 418,
+   "loop_seconds": 27.8,
+   "lost_steps": 0
+  },
+  {
+   "number": 5,
+   "short": "WayangGolek",
+   "file": "Movies/Plates/Plate05_WayangGolek.mp4",
+   "box": [
+    0.3835,
+    0.2732,
+    0.4765,
+    0.7458
+   ],
+   "zoom": 1.5,
+   "filled_frames": 127,
+   "frames": 142,
+   "loop_seconds": 9.4,
+   "lost_steps": 0
+  },
+  {
+   "number": 6,
+   "short": "MaketMasjidAtThohir",
+   "file": "Movies/Plates/Plate06_MaketMasjidAtThohir.mp4",
+   "box": [
+    0.4369,
+    0.3019,
+    0.6681,
+    0.5331
+   ],
+   "zoom": 1.25,
+   "filled_frames": 337,
+   "frames": 337,
+   "loop_seconds": 22.4,
+   "lost_steps": 0
+  }
+ ],
+ "walks": [
+  {
+   "number": 1,
+   "short": "PameranJalurRempah",
+   "file": "Movies/Walk/Walk01_PameranJalurRempah.mp4",
+   "seconds": 9.2
+  },
+  {
+   "number": 2,
+   "short": "GaleriPrasasti",
+   "file": "Movies/Walk/Walk02_GaleriPrasasti.mp4",
+   "seconds": 19.3
+  },
+  {
+   "number": 3,
+   "short": "PaviliunKitab",
+   "file": "Movies/Walk/Walk03_PaviliunKitab.mp4",
+   "seconds": 9.0
+  }
+ ]
+}
