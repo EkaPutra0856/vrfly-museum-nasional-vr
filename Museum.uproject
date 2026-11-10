@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.8",
+	"Category": "",
+	"Description": "Museum Nasional Indonesia - AR guide tour (VR/MR, demo mode over recorded video).",
+	"Modules": [
+		{
+			"Name": "Museum",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{ "Name": "OpenXR", "Enabled": true },
+		{ "Name": "OpenXRHandTracking", "Enabled": true },
+		{ "Name": "XRBase", "Enabled": true },
+		{ "Name": "OculusXR", "Enabled": true, "SupportedTargetPlatforms": [ "Win64", "Android" ] },
+		{ "Name": "MovieRenderPipeline", "Enabled": true },
+		{ "Name": "MediaPlate", "Enabled": true },
+		{ "Name": "ProceduralMeshComponent", "Enabled": true },
+		{ "Name": "ModelingToolsEditorMode", "Enabled": true, "TargetAllowList": [ "Editor" ] },
+		{ "Name": "Terminal", "Enabled": true },
+		{ "Name": "EditorToolset", "Enabled": true },
+		{ "Name": "ModelContextProtocol", "Enabled": true },
+		{ "Name": "AllToolsets", "Enabled": true },
+		{ "Name": "MCPClientToolset", "Enabled": true },
+		{ "Name": "WzSystem", "Enabled": true },
+		{ "Name": "Paper2D", "Enabled": false },
+		{ "Name": "OnlineSubsystemGooglePlay", "Enabled": false, "SupportedTargetPlatforms": [ "Android" ] },
+		{ "Name": "AndroidFileServer", "Enabled": false },
+		{ "Name": "GooglePAD", "Enabled": false },
+		{ "Name": "OnlineSubsystem", "Enabled": false },
+		{ "Name": "OnlineSubsystemNull", "Enabled": false },
+		{ "Name": "OnlineSubsystemUtils", "Enabled": false }
+	]
+}
